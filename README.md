@@ -2,12 +2,12 @@
 Urban RF-EMF measurements in NYC. 
 Data and code repo
 
-### Measuring the Spatial Distribution of Environmental Radio- Frequency Electromagnetic Field Exposure in New York City"
+### Measuring the Spatial Distribution of Environmental Radio- Frequency Electromagnetic Field Exposure in New York City
 
 Arno Thielens, Ricardo Toledo-Crow, Salvatore Davi, Sassama Hema  
 Advanced Science Research Center, City University of New York.
 
-The data was acquired in two periods and is split into the following sets
+The data was acquired with an ExpoM RF field sensor in two periods. It is split into the following sets:
 + #1 fall 2024  : outdoor paths including measurements on the water ferry
 + #3 spring 2025 : repeat of the outdoor paths of #1
 + indoor measurements : a few indoor paths done during #1
