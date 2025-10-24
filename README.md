@@ -7,14 +7,14 @@ Data and code repo
 Arno Thielens (Photonics) & Ricardo Toledo-Crow(Environmental).  
 Advanced Science Research Center, City University of New York.
 
-The data was acquired in two periods
-+ #1 fall 2024  
-+ #3 spring 2025
-+ indoor measurements
-+ train measurements (NYC MTA)
+The data was acquired in two periods and is split into the following sets
++ #1 fall 2024  : outdoor paths including measurements on the water ferry
++ #3 spring 2025 : repeat of the outdoor paths of #1
++ indoor measurements : a few indoor paths done during #1
++ train measurements : a few train (NYC MTA) measurements during #1
 
 Data acquisition paths were done in the five boroughs of NYC, in different environments
-+ boroughs: M, BK, Q, BX, SI, FERRY (Manhattan, Brooklyn, Queens, Bronx, Staten Island, Ferry)
++ boroughs : M, BK, Q, BX, SI, FERRY (Manhattan, Brooklyn, Queens, Bronx, Staten Island, Ferry)
 + environments : C, R, G, I, T (Commercial, Residential, Greenery, Indoors, Transport)
 
 Folders: 
@@ -27,4 +27,4 @@ Scripts: running on Anaconda Python 3.13.5 in Visual Sudio Code
 + make_inventory_totals_bis.py : generates the inventory excel files 
 + excel2image.py : makes heatmap images of the individual path files (?)
 
-Inventory Excel Files: these files are created with the make_inventory_totals_bis.py script. See script header for more
+Inventory Excel Files : these files are created with the make_inventory_totals_bis.py script. See script header for more
