@@ -6,3 +6,25 @@ Data and code repo
 
 Arno Thielens (Photonics) & Ricardo Toledo-Crow(Environmental).  
 Advanced Science Research Center, City University of New York.
+
+The data was acquired in two periods
++ #1 fall 2024  
++ #3 spring 2025
++ indoor measurements
++ train measurements (NYC MTA)
+
+Data acquisition paths were done in the five boroughs of NYC, in different environments
++ boroughs: M, BK, Q, BX, SI, FERRY (Manhattan, Brooklyn, Queens, Bronx, Staten Island, Ferry)
++ environments : C, R, G, I, T (Commercial, Residential, Greenery, Indoors, Transport)
+
+Folders: 
++ ExpoM data : has source data files from the ExpoM RF sensor in tab separated values
++ Excel data : processed files with csv2excel_batch.py, cleaned up some
++ kmz : has kmz files for all paths in period 1 and 3, view them in google earth eg.
+
+Scripts: running on Anaconda Python 3.13.5 in Visual Sudio Code
++ csv2excel_batch.py 
++ make_inventory_totals_bis.py : generates the inventory excel files 
++ excel2image.py : makes heatmap images of the individual path files (?)
+
+Inventory Excel Files: these files are created with the make_inventory_totals_bis.py script. See script header for more
