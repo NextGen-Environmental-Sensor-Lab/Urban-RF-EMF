@@ -19,7 +19,7 @@ Data acquisition paths were done in the five boroughs of NYC, in different envir
 
 Folders: 
 + ExpoM data : has source data files from the ExpoM RF sensor in tab separated value format
-+ Excel data : processed files with csv2excel_batch.py, cleaned up some
++ Excel data : processed files with csv2excel_batch.py, cleaned up some. Names were manually edited. See below note.
 + kmz : has kmz files for all paths in period 1 and 3, view them in google earth eg.
 
 Scripts: running on Anaconda Python 3.13.5 in Visual Sudio Code
