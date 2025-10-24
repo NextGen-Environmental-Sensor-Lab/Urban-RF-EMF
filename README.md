@@ -7,6 +7,10 @@ Data and code repo
 Arno Thielens, Ricardo Toledo-Crow, Salvatore Davi, Sassama Hema  
 Advanced Science Research Center, City University of New York.
 
+<img src="/images/expom-rf-4.jpg" alt="ExpoM RF-4" width="300">
+<img src="/images/IMG_3772 2.jpeg" alt="Sal and Sassame on their way..." width="300">
+
+
 The data was acquired with an ExpoM RF field sensor in two periods. It is split into the following sets:
 + #1 fall 2024  : outdoor paths including measurements on the water ferry
 + #3 spring 2025 : repeat of the outdoor paths of #1
