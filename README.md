@@ -28,3 +28,7 @@ Scripts: running on Anaconda Python 3.13.5 in Visual Sudio Code
 + excel2image.py : makes heatmap images of the individual path files (?)
 
 Inventory Excel Files : these files are created with the make_inventory_totals_bis.py script. See script header for more
+
+NOTE: the names of the excel files were manually edited to include the categories info (environment, borough)
+
+The general format is "YYYY-MM-DD_hh.mm.ss E B location.xlsx" E=environment, B=borough
