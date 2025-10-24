@@ -4,7 +4,7 @@ Data and code repo
 
 ### Measuring the Spatial Distribution of Environmental Radio- Frequency Electromagnetic Field Exposure in New York City"
 
-Arno Thielens (Photonics) & Ricardo Toledo-Crow(Environmental).  
+Arno Thielens, Ricardo Toledo-Crow, Salvatore Davi, Sassama Hema  
 Advanced Science Research Center, City University of New York.
 
 The data was acquired in two periods and is split into the following sets
