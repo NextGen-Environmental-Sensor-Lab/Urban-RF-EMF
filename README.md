@@ -18,7 +18,7 @@ Data acquisition paths were done in the five boroughs of NYC, in different envir
 + environments : C, R, G, I, T (Commercial, Residential, Greenery, Indoors, Transport)
 
 Folders: 
-+ ExpoM data : has source data files from the ExpoM RF sensor in tab separated values
++ ExpoM data : has source data files from the ExpoM RF sensor in tab separated value format
 + Excel data : processed files with csv2excel_batch.py, cleaned up some
 + kmz : has kmz files for all paths in period 1 and 3, view them in google earth eg.
 
