@@ -21,6 +21,7 @@ Main workflow:
    • Parses the filename to extract:
        - date (YYYY-MM-DD or YYYY-MM-DD_hh.mm.ss → date only),
        - borough (one of [M, Q, BK, BX, SI, FERRY]),
+       - environment type (one of [C, R, G, T, I]),
        - location (remaining text after borough).
    • Reads the first column to determine:
        - start time (first timestamp),
