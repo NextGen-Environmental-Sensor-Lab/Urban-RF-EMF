@@ -59,7 +59,7 @@ Notes:
 Inventory Aggregation and Summary Script
 ----------------------------------------
 
-Processes multiple Excel measurement files and updates an inventory workbook
+added later: Processes multiple Excel measurement files and updates an inventory workbook
 with per-file statistics (Sheet1) and aggregated summaries (Sheet2).
 
 Sheet2 layout:
