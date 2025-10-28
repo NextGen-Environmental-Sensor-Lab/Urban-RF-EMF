@@ -43,6 +43,7 @@ Main workflow:
    • Computes the nine statistics directly from all combined raw RSS values:
        - One "Totals" section combining all files together.
        - One section per borough (M, Q, BK, BX, SI, FERRY) if data exist.
+       - One section per environment (C, R, G, T, I) if data exists.
    • Writes the results as a table:
        Label | Category | MIN | P25 | MEAN | GEOMEAN | MEDIAN | P75 | P90 | MAX | STDEV
 
