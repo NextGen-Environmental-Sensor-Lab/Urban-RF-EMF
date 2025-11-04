@@ -21,6 +21,7 @@ Main workflow:
    • Parses the filename to extract:
        - date (YYYY-MM-DD or YYYY-MM-DD_hh.mm.ss → date only),
        - borough (one of [M, Q, BK, BX, SI, FERRY]),
+       - environment type (one of [C, R, G, T, I]),
        - location (remaining text after borough).
    • Reads the first column to determine:
        - start time (first timestamp),
@@ -42,6 +43,7 @@ Main workflow:
    • Computes the nine statistics directly from all combined raw RSS values:
        - One "Totals" section combining all files together.
        - One section per borough (M, Q, BK, BX, SI, FERRY) if data exist.
+       - One section per environment (C, R, G, T, I) if data exists.
    • Writes the results as a table:
        Label | Category | MIN | P25 | MEAN | GEOMEAN | MEDIAN | P75 | P90 | MAX | STDEV
 
@@ -57,7 +59,7 @@ Notes:
 Inventory Aggregation and Summary Script
 ----------------------------------------
 
-Processes multiple Excel measurement files and updates an inventory workbook
+added later: Processes multiple Excel measurement files and updates an inventory workbook
 with per-file statistics (Sheet1) and aggregated summaries (Sheet2).
 
 Sheet2 layout:
