@@ -1,65 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-URBAN RF-EMF STUDY IN NYC
-Source files created from ExpoM RF-EMF sensor source files with script csv2excel_batch.py
-The filenames were manualy modified to include borough and location
-
 Inventory Aggregation and Summary Script
 ----------------------------------------
 
-This script automates the processing and aggregation of measurement data
-collected from multiple Excel source files containing broadband RMS readings
-across several frequency categories (Broadcast, Downlink, Uplink, WLAN, TDD, Total).
-
-Main workflow:
-1. Interactively prompts the user to:
-   • Select an existing inventory Excel file (to be updated).
-   • Select one or more source Excel files to process.
-
-2. For each source file:
-   • Parses the filename to extract:
-       - date (YYYY-MM-DD or YYYY-MM-DD_hh.mm.ss → date only),
-       - borough (one of [M, Q, BK, BX, SI, FERRY]),
-       - environment type (one of [C, R, G, T, I]),
-       - location (remaining text after borough).
-   • Reads the first column to determine:
-       - start time (first timestamp),
-       - end time (last timestamp),
-       - N = number of measurement samples.
-   • Computes Root-Sum-of-Squares (RSS) values per data row for each
-     measurement category using the corresponding column group defined in CATEGORY_MAP.
-   • Derives nine descriptive statistics for each category:
-       [MIN, P25, MEAN, GEOMEAN, MEDIAN, P75, P90, MAX, STDEV].
-   • Appends a single summary row to the inventory file (Sheet1) containing:
-       [date, borough, location, type, note, start time, end time, N,
-        Broadcast MIN, Broadcast P25, ..., Total STDEV].
-
-3. While processing, the script also aggregates all raw RSS values into memory
-   for later computation of *true* overall and per-borough statistics.
-
-4. After all source files are processed:
-   • Creates or replaces Sheet2 ("Aggregated Statistics") in the inventory file.
-   • Computes the nine statistics directly from all combined raw RSS values:
-       - One "Totals" section combining all files together.
-       - One section per borough (M, Q, BK, BX, SI, FERRY) if data exist.
-       - One section per environment (C, R, G, T, I) if data exists.
-   • Writes the results as a table:
-       Label | Category | MIN | P25 | MEAN | GEOMEAN | MEDIAN | P75 | P90 | MAX | STDEV
-
-5. Saves the updated inventory file with both sheets:
-   • Sheet1 - per-file summary (appended rows)
-   • Sheet2 - aggregated “true” statistics based on all raw measurements.
-
-Notes:
-- The script ensures the header row in Sheet1 is always present exactly once (row 1).
-- It can be run repeatedly: new data are appended, and Sheet2 is regenerated.
-- Requires: pandas, numpy, openpyxl (install via `pip install pandas numpy openpyxl`).
-
-Inventory Aggregation and Summary Script
-----------------------------------------
-
-added later: Processes multiple Excel measurement files and updates an inventory workbook
+Processes multiple Excel measurement files and updates an inventory workbook
 with per-file statistics (Sheet1) and aggregated summaries (Sheet2).
 
 Sheet2 layout:
@@ -69,9 +14,6 @@ Sheet2 layout:
 - Single blank line between tables
 - First row (header) and first column (labels) are bold
 - All numeric cells formatted to 4 decimal places
-
-Author: (RToledo-Crow + ChatGPT, ASRC CUNY)
-Date: (October 2025)
 """
 
 import os, re
