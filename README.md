@@ -1,3 +1,5 @@
+<img src="/GoogleEarth_kml/manhattan 3d.jpg" alt="RF-EMF" width="300">
+
 # Urban-RF-EMF
 Urban RF-EMF measurements in NYC. 
 Data and code repo
@@ -8,7 +10,7 @@ Arno Thielens, Ricardo Toledo-Crow, Salvatore Davi, Sassama Hema
 Advanced Science Research Center, City University of New York.
 
 <img src="/images/expom-rf-4.jpg" alt="ExpoM RF-4" width="300">
-<img src="/images/IMG_3772 2.jpeg" alt="Sal and Sassame on their way..." width="300">
+<img src="/images/IMG_3772 2.jpeg" alt="Sal and Sassama on their way..." width="300">
 
 
 The data was acquired with an ExpoM RF field sensor in two periods. It is split into the following sets:
@@ -22,9 +24,9 @@ Data acquisition paths were done in the five boroughs of NYC, in different envir
 + environments : C, R, G, I, T (Commercial, Residential, Greenery, Indoors, Transport)
 
 Folders: 
-+ ExpoM data : has source data files from the ExpoM RF sensor in tab separated value format
-+ Excel data : processed files with csv2excel_batch.py, cleaned up some. Names were manually edited. See below note.
-+ kmz : has kmz files for all paths in period 1 and 3, view them in google earth eg.
++ ExpoM_data : has source data files from the ExpoM RF sensor in tab separated value format
++ Excel_data : processed files with csv2excel_batch.py, cleaned up some. Names were manually edited. See below note.
++ GoogleEarth_kml: has 'My Places.kmz' for Google Earth Pro with all measurement paths in season 1, census blocks and pedestrian mobility lines. Also some cool images form GEP
 
 Scripts: running on Anaconda Python 3.13.5 in Visual Sudio Code
 + csv2excel_batch.py 
