@@ -10,7 +10,7 @@ Arno Thielens, Ricardo Toledo-Crow, Salvatore Davi, Sassama Hema
 Advanced Science Research Center, City University of New York.
 
 <img src="/images/expom-rf-4.jpg" alt="ExpoM RF-4" width="300">
-<img src="/images/IMG_3772 2.jpeg" alt="Sal and Sassama on their way..." width="400">
+<img src="/images/IMG_3772 2.jpeg" alt="Sal and Sassama on their way..." width="500">
 
 
 The data was acquired with an ExpoM RF field sensor in two periods. It is split into the following sets:
