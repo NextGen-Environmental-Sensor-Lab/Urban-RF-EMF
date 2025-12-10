@@ -24,17 +24,14 @@ Data acquisition paths were done in the five boroughs of NYC, in different envir
 + **Environments** : C, R, G, I, T (Commercial, Residential, Greenery, Indoors, Transport)
 
 Folders: 
-+ **Excel_data**: processed files with csv2excel_batch.py, cleaned up some. Names were manually edited. See below note.
-+ **Excel_inventory**: summary of totals by technology per path for season 1, 3, indoors and trains.
-+ **ExpoM_data**: Source data files from the ExpoM RF sensor in tab separated value format (TSV).
-+ **GoogleEarth_kml**: has 'My Places.kmz' for Google Earth Pro with all measurement paths in season 1, census blocks and pedestrian mobility lines. Also some cool images from GoogleEarth.
++ **ExpoM_data**: Source data files from the ExpoM RF sensor in tab separated value format.
++ **Excel_data**: Processed CSV files to Excel files with csv2excel_batch.py, cleaned up some. Names were manually edited. See below note for naming.
++ **Excel_inventory**: Summary of totals by technology per path for season 1, 3, indoors and trains. Made with script make_inventory_totals_bis_bis.py. See script header for more.
++ **GoogleEarth_kml**: 'My Places.kmz' for Google Earth Pro with all measurement paths in season 1, census blocks and pedestrian mobility lines. Also some cool images from GoogleEarth.
 + **Heatmaps**: Heatmap type display of all paths and aggregations. Also Python scripts to make them. Used AdobeIllustrator to finish.
 + **QGIS_layers**: QGIS file with all the information: census block population (cbp), census block expanded population (ecbp), pedestrian mobility ranking (pm), all rf-emf paths in season 1.
-+ **season1-season3_correlation**: excel file used for correlating measurememnts in the two seasons.
++ **Season1-Season3_correlation**: Excel file with Pearson Rank Correlation analysis for  measurememnts in the two seasons.
 
+NOTE: the names of the excel files were manually edited to include the categories info (environment, borough) The general format is: 
+#### *YYYY-MM-DD_hh.mm.ss E B location.xlsx* where *E* = environment, *B* = borough
 
-Inventory Excel Files : these files are created with the make_inventory_totals_bis.py script. See script header for more
-
-NOTE: the names of the excel files were manually edited to include the categories info (environment, borough)
-
-The general format is "YYYY-MM-DD_hh.mm.ss E B location.xlsx" E=environment, B=borough
