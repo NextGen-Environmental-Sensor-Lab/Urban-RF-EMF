@@ -10,7 +10,7 @@ Arno Thielens, Ricardo Toledo-Crow, Salvatore Davi, Sassama Hema
 Advanced Science Research Center, City University of New York.
 
 <img src="/images/expom-rf-4.jpg" alt="ExpoM RF-4" width="300">
-<img src="/images/IMG_3772 2.jpeg" alt="Sal and Sassama on their way..." width="300">
+<img src="/images/IMG_3772 2.jpeg" alt="Sal and Sassama on their way..." width="400">
 
 
 The data was acquired with an ExpoM RF field sensor in two periods. It is split into the following sets:
@@ -20,18 +20,18 @@ The data was acquired with an ExpoM RF field sensor in two periods. It is split 
 + train measurements : a few train (NYC MTA) measurements during #1
 
 Data acquisition paths were done in the five boroughs of NYC, in different environments
-+ boroughs : M, BK, Q, BX, SI, FERRY (Manhattan, Brooklyn, Queens, Bronx, Staten Island, Ferry)
-+ environments : C, R, G, I, T (Commercial, Residential, Greenery, Indoors, Transport)
++ **Boroughs**: M, BK, Q, BX, SI, FERRY (Manhattan, Brooklyn, Queens, Bronx, Staten Island, Ferry)
++ **Environments** : C, R, G, I, T (Commercial, Residential, Greenery, Indoors, Transport)
 
 Folders: 
-+ ExpoM_data : has source data files from the ExpoM RF sensor in tab separated value format
-+ Excel_data : processed files with csv2excel_batch.py, cleaned up some. Names were manually edited. See below note.
-+ GoogleEarth_kml: has 'My Places.kmz' for Google Earth Pro with all measurement paths in season 1, census blocks and pedestrian mobility lines. Also some cool images form GEP
++ **Excel_data**: processed files with csv2excel_batch.py, cleaned up some. Names were manually edited. See below note.
++ **Excel_inventory**: summary of totals by technology per path for season 1, 3, indoors and trains.
++ **ExpoM_data**: Source data files from the ExpoM RF sensor in tab separated value format (TSV).
++ **GoogleEarth_kml**: has 'My Places.kmz' for Google Earth Pro with all measurement paths in season 1, census blocks and pedestrian mobility lines. Also some cool images from GoogleEarth.
++ **Heatmaps**: Heatmap type display of all paths and aggregations. Also Python scripts to make them. Used AdobeIllustrator to finish.
++ **QGIS_layers**: QGIS file with all the information: census block population (cbp), census block expanded population (ecbp), pedestrian mobility ranking (pm), all rf-emf paths in season 1.
++ **season1-season3_correlation**: excel file used for correlating measurememnts in the two seasons.
 
-Scripts: running on Anaconda Python 3.13.5 in Visual Sudio Code
-+ csv2excel_batch.py 
-+ make_inventory_totals_bis.py : generates the inventory excel files 
-+ excel2image.py : makes heatmap images of the individual path files (?)
 
 Inventory Excel Files : these files are created with the make_inventory_totals_bis.py script. See script header for more
 
