@@ -28,7 +28,7 @@ Folders:
 + **Excel_data**: Processed CSV files to Excel files with csv2excel_batch.py, cleaned up some. Names were manually edited. See below note for naming.
 + **Excel_inventory**: Summary of totals by technology per path for season 1, 3, indoors and trains. Made with script make_inventory_totals_bis_bis.py. See script header for more.
 + **GoogleEarth_kml**: 'My Places.kmz' for Google Earth Pro with all measurement paths in season 1, census blocks and pedestrian mobility lines. Also some cool images from GoogleEarth.
-+ **Heatmaps**: Heatmap type display of all paths and aggregations. Also Python scripts to make them. Used AdobeIllustrator to finish.
++ **Heatmaps**: Heatmap type display of all paths by bands and aggregations. Also Python scripts to make them. Used AdobeIllustrator to finish.
 + **QGIS_layers**: QGIS file with all the information: census block population (cbp), census block expanded population (ecbp), pedestrian mobility ranking (pm), all rf-emf paths in season 1.
 + **Season1-Season3_correlation**: Excel file with Pearson Rank Correlation analysis for  measurememnts in the two seasons.
 
