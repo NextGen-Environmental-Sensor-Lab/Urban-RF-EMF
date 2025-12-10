@@ -31,7 +31,7 @@ Folders:
 + **Heatmaps**: Heatmap type display of all paths by bands and aggregations. Also Python scripts to make them. Used AdobeIllustrator to finish.
 + **QGIS_layers**: QGIS file with all the information: census block population (cbp), census block expanded population (ecbp), pedestrian mobility ranking (pm), all rf-emf paths in season 1.
 + **Season1-Season3_correlation**: Excel file with Pearson Rank Correlation analysis for  measurememnts in the two seasons.
-+ **Population and Pedestrian_analysis**: Excel file with Pearson Rank Correlation analysis. Measurememnts in the season 1: Total (RMS) exposure vs census block population (cbp), vs census block expanded population (ecbp), vs pedestrian mobility ranking (pm), and vs all rf-emf paths. Includes graphs and plots.
++ **Population and Pedestrian_analysis**: Excel file with Pearson Rank Correlation analysis. Measurememnts in season 1: Total (RMS) exposure vs census block population (cbp), vs census block expanded population (ecbp), vs pedestrian mobility ranking (pm), and vs all rf-emf paths. Includes graphs and plots.
 
 NOTE: the names of the excel files were manually edited to include the categories info (environment, borough) The general format is: 
 #### *YYYY-MM-DD_hh.mm.ss E B location.xlsx* where *E* = environment, *B* = borough
