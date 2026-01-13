@@ -1,4 +1,4 @@
-<img src="/images/rfemf_nyc_googlemaps_all.png" alt="RF-EMF" width="600">
+<img src="/images/rfemf_nyc_googlemaps_all.png" alt="RF-EMF" width="8000">
 
 # Urban-RF-EMF
 Urban RF-EMF measurements in NYC. 
