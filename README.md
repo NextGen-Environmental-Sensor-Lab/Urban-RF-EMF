@@ -25,14 +25,16 @@ Data acquisition paths were done in the five boroughs of NYC, in different envir
 
 Folders: 
 + **ExpoM_data**: Source data files from the ExpoM RF sensor in tab separated value format.
-+ **Excel_data**: Processed CSV files to Excel files with csv2excel_batch.py, cleaned up some. Names were manually edited. See below note for naming.
++ **Excel_data**: Processed CSV files to Excel files with csv2excel_batch.py, cleaned up some. File names were manually edited. See below note for naming.
++ **Excel_data_aggregated**: Excel files with bands aggregated by technology (broadcast, cellular upload, cellular download, WLAN, TDD).
 + **Excel_inventory**: Summary of totals by technology per path for season 1, 3, indoors and trains. Made with script make_inventory_totals_bis_bis.py. See script header for more.
-+ **GoogleEarth_kml**: 'My Places.kmz' for Google Earth Pro with all measurement paths in season 1, census blocks and pedestrian mobility lines. Also some cool images from GoogleEarth.
-+ **Heatmaps**: Heatmap type display of all paths by bands and aggregations. Also Python scripts to make them. Used AdobeIllustrator to finish.
++ **GoogleEarth_kml**: 'My Places.kmz' for Google Earth Pro with all measurement paths in season 1. Also some cool images from GoogleEarth.
++ **Heatmaps**: Heatmap type display of all paths by bands and aggregations for season 1. Also Python scripts to make them.
 + **QGIS_layers**: QGIS file with all the information: census block population (cbp), census block expanded population (ecbp), pedestrian mobility ranking (pm), all rf-emf paths in season 1.
-+ **Season1-Season3_correlation**: Excel file with Pearson Rank Correlation analysis for  measurememnts in the two seasons.
-+ **Population and Pedestrian_analysis**: Excel file with Pearson Rank Correlation analysis. Measurememnts in season 1: Total (RMS) exposure vs census block population (cbp), vs census block expanded population (ecbp), vs pedestrian mobility ranking (pm), and vs all rf-emf paths. Includes graphs and plots.
++ **Season1-Season3_correlation**: Excel file with Pearson Rank Correlation analysis for measurememnts in the two seasons.
++ **Population_Pedestrian_analysis**: Excel file with Pearson Rank Correlation analysis. Measurememnts in season 1: Total (RMS) exposure vs census block population (cbp), vs census block expanded population (ecbp), vs pedestrian mobility ranking (pm), and vs all rf-emf paths. Includes graphs and plots.
 
-NOTE: the names of the excel files were manually edited to include the categories info (environment, borough) The general format is: 
-#### *YYYY-MM-DD_hh.mm.ss E B location.xlsx* where *E* = environment, *B* = borough
+NOTES: The names of the excel files were manually edited to include the categories info (environment, borough) The general format is: 
+#### *YYYY-MM-DD_hh.mm.ss E B location.xlsx* where *E* = environment, *B* = borough. 
+Season 3 is often refered to as Season 2 in the publication (Season3=Season2).
 
