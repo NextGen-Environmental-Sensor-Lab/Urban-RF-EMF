@@ -31,7 +31,7 @@ Folders:
 + **GoogleEarth_kml**: 'My Places.kmz' for Google Earth Pro with all measurement paths in season 1. Also some cool images from GoogleEarth.
 + **Heatmaps**: Heatmap type display of all paths by bands and aggregations for season 1. Also Python scripts to make them.
 + **QGIS_layers**: QGIS file with all the information: census block population (cbp), census block expanded population (ecbp), pedestrian mobility ranking (pm), all rf-emf paths in season 1.
-+ **Season1-Season3_correlation**: Excel file with Pearson Rank Correlation analysis for measurememnts in the two seasons.
++ **Season1-Season3_correlation**: Excel file with Spearman Rank Correlation analysis for measurememnts in the two seasons (and Wilcoxon bias).
 + **Population_Pedestrian_analysis**: Excel file with Pearson Rank Correlation analysis. Measurememnts in season 1: Total (RMS) exposure vs census block population (cbp), vs census block expanded population (ecbp), vs pedestrian mobility ranking (pm), and vs all rf-emf paths. Includes graphs and plots.
 
 NOTES: The names of the excel files were manually edited to include the categories info (environment, borough) The general format is: 
